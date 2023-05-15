@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Links</title>
+    <style>
+        /*
+        SELETORES PERSONALIZADOS
+        id = #
+        class = .
+        : = pseudo-class
+        :: = pseudoe-lement
+        > = children
+        */
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        a{
+            color: black;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        a:visited{
+            color: rgb(199, 53, 53);
+        }
+        a:hover{
+            color: rgb(148, 2, 2);
+            text-decoration: underline;
+        }
+        a::before{
+            content: 'Ω';
+        } 
+        a::after{
+            content:'Ω'
+        }
+    </style>
+</head>
+<body>
+    <h1>Personalizando links</h1>
+    <ul>
+        <li><a href="https://www.tiktok.com/pt-BR/" target="_blank">Tiktok</a></li>
+        <li><a href="https://www.youtube.com/" target="_blank">Youtube</a></li>
+        <li><a href="https://www.googleadservices.com/pagead/aclk?sa=L&ai=DChcSEwjop5SOjcj8AhUy5VwKHTqDAmUYABATGgJjZQ&ohost=www.google.com&cid=CAESbOD2XMZjCzX4Z-omjlz3HlqO08tpXpvKKJ3GOVIQ4tZOSczvuDvnHXhckHrXfin_UoE_uzV6CttvOKUIPd5btehjr1Fk9MXrjRh5zLswmeC9VwarX8RlWokhkZIdtiSjrrPt3nFI_k9lY1HAkA&sig=AOD64_12nNjYwQfhJE416yZyte01tnyAPw&q&adurl&ved=2ahUKEwiogo6Ojcj8AhV_qpUCHUZ_AdEQ0Qx6BAgNEAE" target="_blank">Loja do flamengo</a></li>
+    </ul>  
+
+    
+</body>
+</html>

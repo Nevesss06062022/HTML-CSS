@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping tags</title>
+    <style>
+      body{
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        background-color:grey;
+        margin: 0px;
+      }
+      header{
+        background-color: whitesmoke;
+        padding: 10px;
+        margin: 5px;
+      }
+      main{
+        background-color: whitesmoke;
+        padding: 10px;
+        margin: 5px;
+      }
+      footer{
+        background-color: black;
+        text-align: center;
+        color: white;
+        padding: 1px;
+        margin: 0px;
+
+      }
+      nav>a:hover{ text-decoration: underline;
+
+      }
+      nav{
+        box-shadow: 3px 3px 5px 0px black;
+        padding:3px;
+        background-color: darkgray;
+
+      }
+      nav>a{
+        text-decoration: none;
+        color: rgb(200, 204, 207);
+      }
+
+      aside{
+        background-color: darkgray;
+      }
+      footer>p{
+        margin: 0px;
+      }   
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Meu site</h1>
+        <nav>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+        </nav>
+    </header>
+
+    <main>
+         <article id="Noticias">
+         <h2>Noticias sobre os novos jogos</h2>
+         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum harum quae veritatis adipisci aliquam odit, magni atque totam quod voluptatum debitis maiores fugiat amet repellat aspernatur. Aut dolores quas nulla!</p>
+
+         <aside>Artigo escrito por Matheus neves</aside>
+        </article>
+    </main>
+    <footer>
+        <p>Feito por Matheus Neves</p>
+    </footer>
+    <div id="bola"></div>
+</body>
+</html>
